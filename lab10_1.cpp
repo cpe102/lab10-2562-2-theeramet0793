@@ -13,6 +13,7 @@ int main()
     cin.get();
     cin.get();
     cin.get();
+    
     srand(time(0));
     num=rand()%9;
 
