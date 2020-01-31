@@ -7,12 +7,12 @@
 using namespace std;
 int main()
 {
-    string a,b,c;
+ 
     int num;
     cout << "Press Enter 3 times to reveal your future.\n";
-    getline(cin,a);
-    getline(cin,b);
-    getline(cin,c);
+    cin.get();
+    cin.get();
+    cin.get();
     srand(time(0));
     num=rand()%9;
 

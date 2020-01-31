@@ -1,5 +1,7 @@
 #include<iostream>
 #include<string>
+#include<ctime>
+#include<cstdlib>
 
 using namespace std;
 
@@ -8,6 +10,11 @@ int cardScores[] = {0,1,2,3,4,5,6,7,8,9,10,10,10,10};
 
 int drawCard(void){
 	//Write the function to random the number from 1 to 13 and return that random number.
+	int num;
+	srand(time(0));
+	num = rand()%13+1;
+	return num;
+
 }
 
 int calScore(int x,int y,int z){
